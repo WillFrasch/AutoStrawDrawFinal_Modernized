@@ -1,0 +1,44 @@
+
+/* Root styles */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+
+
+
+.button:hover {
+    -fx-background-color: #45a001;
+}
+
+/* ProgressBar */
+.progress-bar {
+    -fx-accent: #4CAF50;
+    -fx-background-color: #ddd;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+/* TextFields */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
